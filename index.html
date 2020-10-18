@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Controlando quadrado</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main-container">
+    <div class="container">
+      
+      <div class="box-move">
+        <div id="move" class="move"></div>
+      </div>
+      
+      <div class="buttons">
+        <button 
+          class="block" 
+          onclick="up()">↑</button>
+        <div class="mid-buttons">
+          <button 
+            onclick="left()">←</button>
+          <button 
+            class="ml" 
+            onclick="right()">→</button>
+        </div>
+        <button 
+          class="block" 
+          onclick="bot()">↓</button>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
